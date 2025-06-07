@@ -1,6 +1,6 @@
 # Object Orientation vs. Functional Programming
 
-OO felt right when I first learnt it. And I was happily using it through C# for almost 9+ years. Then I came across [Clojure](https://clojure.org/) and it felt like someone has slapped me hard 😃. In a project just prior to learning Clojure, our whole team had spent countless hours in implementing `ToString` (so that the contents could be displayed properly for debugging) and `Equals` (so that the objects could be compared for equality based on value). And Clojure teaches `value equality` (also called `structural equality`) in the very beginning.
+OO felt right when I first learnt it. And I was happily using it through C# for almost 9+ years. Then I came across [Clojure](https://clojure.org/) and it felt like someone has slapped me hard 😃. In a project just prior to learning Clojure, our whole team had spent countless hours in implementing `ToString` (so that the contents could be displayed properly for debugging) and `Equals` (so that the objects could be compared for equality based on value). And Clojure teaches `value equality` (also called `structural equality`) at the very beginning.
 
 So, in short, here are the concepts which OO languages got it **wrong**:
 
