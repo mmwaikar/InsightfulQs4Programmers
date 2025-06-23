@@ -1,6 +1,6 @@
 # Niche Languages
 
-The two niche languages which I absolutely love are Clojure & F#. The two languages are on the opposite ends of a spectrum - one fully dynamic and the other fully type-safe, with one of the best type inference engines out there. If you forget this fact for a few minutes, then you'll realize that both share a lot of good principles:
+The two niche languages which I absolutely love are Clojure & F#. These are on the opposite ends of a spectrum - one fully dynamic and the other fully type-safe (with possibly, one of the best type inference engines out there). If you forget this fact for a few minutes, then you'll realize that both share a lot of good principles:
 
 - value equality
 - immutable data structures
@@ -18,9 +18,9 @@ Clojure is happy being a niche language and although there is a company behind i
 In contrast, although Microsoft is behind F#, it cares little for F#'s success and is happy catering to it's main customer base, which are happily using C#. A few reasons why F# didn't take off:
 
 - people don't want to invest time in learning a new language
-- even if you'll be able to use it in many areas, you'll still have to fall back to C# for tasks like UIs, and maybe database access (in case you want to use ORMs), because of which people talk about -FP-OO (front-end - core business logic - data layer) sandwich
+- even if you'll be able to use it in many areas, you'll still have to fall back to C# for tasks like UIs, and maybe database access (in case you want to use ORMs), because of which people talk about OO-FP-OO (front-end - core business logic - data layer) sandwich
 
-So the problem for an *average developer* is that there are few opportunities for them to get a job in any of these (or similar, niche) languages. Only the top few will get to use these languages as a part of their daily job, and the majority others will be regretting the fact that they are not able to land a job in these languages.
+So the problem for an *average developer* is that there are few opportunities for them to get a job in any of these (or similar, niche) languages. Only the top few will get to use these languages as a part of their daily job, and the majority others will be regretting the fact that they are not able to land a job in these (much better than their famous counterparts) languages.
 
 ## So what's the solution?
 
