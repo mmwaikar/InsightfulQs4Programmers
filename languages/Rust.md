@@ -1,6 +1,6 @@
 # Rust
 
-My journey with Rust is a typical hate (more of frustration, frankly) to acceptance & finally admiration story. I came to Rust after using Scala in production for almost 4 years and learning F# on my own. I've used GC languages (C#, F#, Java, Scala, Clojure) for my entire programming life and that's where the frustration with Rust stems from. Imagine the horror of seeing the `address of` operator (`&str`) after many years of conveniently forgetting to do anything with it 😉
+My journey with Rust is one of a hate (more of frustration, frankly) to acceptance & finally admiration story. I came to Rust after using Scala in production for almost 4 years and learning F# on my own. I've used GC languages (C#, F#, Java, Scala, Clojure) for my entire programming life and that's where the frustration with Rust stems from. Imagine the horror of seeing the `address of` operator (`&str`) after many years of conveniently forgetting to do anything with it 😉
 
 ## The pain points
 
