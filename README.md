@@ -7,7 +7,15 @@ This is partly due to the fact that companies cannot toss away working software 
 
 These questions will also help developers who are planning to learn new technologies in deciding their merit and possibly eliminating less compelling choices.
 
-That said, let's begin the exploration.
+That said, let's begin the exploration -
+
+1. [Dynamic vs. Static typing](Dynamic-vs-Static.md)
+2. [OO vs. FP](OO-vs-FP.md)
+3. [Niche Languages](Niche-Languages.md)
+4. [C#](/languages/CSharp.md)
+5. [Scala](/languages/Scala.md)
+6. [TypeScript](/languages/TypeScript.md)
+7. [Rust](/languages/Rust.md)
 
 ## Languages
 
@@ -21,6 +29,12 @@ That said, let's begin the exploration.
 | [Rust](languages/Rust.md) | 2015 |  |
 
 ## Insights
+
+This one single diagram is enough to summarize my experience with various languages 😃
+
+![Language-Matrix](/screenshots/Language-Matrix.svg)
+
+### My recommendations
 
 1. **If you must use JS**, then use either [SolidJS](https://www.solidjs.com/) or [Svelte](https://svelte.dev/). Read [A Decade of SolidJS](https://dev.to/this-is-learning/a-decade-of-solidjs-32f4) and how every major framework now uses `Signals` (for fine grained reactivity). Also you can write web components in Svelte
 

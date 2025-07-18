@@ -23,7 +23,7 @@ Scala has a surprising number of excellent libraries if one has to practice **pu
 
 *So what's the problem?* Well, here comes the **enigma** part - the one big mistake that Scala did, elevates it to being a **case-study** - *the sin of breaking backward compatibility*. **Not just once, but multiple times:** 
 
-- Scala 2.18 code did not used to compile for 2.19 (if I remember correctly, the version numbers might be a little off though)
+- Scala 2.12 code did not used to compile for 2.13 (if I remember correctly, the version numbers might be a little off though)
 - What to say of Scala 2 vs. 3? (Same as Python 2 vs. 3 for those who don't know)
 
 You won't appreciate C# or Java **never** breaking backward compatibility, until you have to deal with it yourself. When the realization dawned on me that I'll have to invest time to *again learn a new syntax* for Scala 3, I was really pissed off, and disgusted. I mean, for no fault of mine, and for no **substantial** gains, I have to invest time and energy again, and *imagine it for a team now*. **The greater the team, the greater the loss in productivity and resources.**
@@ -31,7 +31,7 @@ You won't appreciate C# or Java **never** breaking backward compatibility, until
 Some other deal breakers:
 
 - Lack of async/await
-     - Let me be very frank - if a languages does not have async/await support than anytime you have to deal with asynchronous functions (which is in a lot of places), and specially when you to combine a lot of those functions in a business logic, your code is bound to get very complex, and you'll spend **exponentially more time** than if you were to use those very same functions and weave them together in a business logic if they were totally synchronous. It is not for nothing than languages apart from F# & C#, like Dart, Python, JS, Rust - all have async/await - **a game changer for which F# and Microsoft get very little credit**)
+     - Let me be very frank - if a languages does not have async/await support than anytime you have to deal with asynchronous functions (which is in a lot of places), and specially when you need to combine a lot of those functions in a business logic, your code is bound to get very complex, and you'll spend **exponentially more time** than if you were to use those very same functions and weave them together in a business logic if they were totally synchronous. It is not for nothing than languages apart from F# & C#, like Dart, Python, JS, Rust - all have async/await - **a game changer for which F# and Microsoft get very little credit**)
 - **Akka** the open-source poster child of Scala, was turned into a for-profit version
 - [Lagom](https://www.lagomframework.com/) which was the only micro-services framework, was abandoned
 - Similarly, [Play](https://www.playframework.com/) was also left to open-source maintainers (which is not bad per-se)
